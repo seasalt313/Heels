@@ -1,0 +1,94 @@
+<!--<div class="fashionshow-intro-top">
+    <h1>Fashion Show Shoe Videos</h1>
+    <p>Heels.com is proud to present our fashion show videos featuring fresh and fabulous shoes and Heels from the biggest designer brands. Browse through our best selling shoe brands like Jessica Simpson, Fergie, and Dereon and get a feel for what the shoes look like in action on our model's feet. Spice up your shoe shopping experience with our fun fashion show videos – your front row seat to the hottest styles and trends in women’s shoes!</p>
+    <img src="//static.heels.com/img/fashionshow-logo.png" alt="" width="110px" height="120px" />
+</div>-->
+<div id="small_banner" class="fashionshow">
+	<h2 class="fashion_show">Fashion Show</h2>
+
+	<h1>Heels.com is proud to present our fashion show videos featuring fresh and fabulous shoes and Heels from the biggest designer brands. Browse through our best selling shoe brands like Jessica
+		Simpson, Fergie, and Dereon and get a feel for what the shoes look like in action on our model&#146;s feet. Spice up your shoe shopping experience with our fun fashion show video&&#160;&#160;-&#160;&#160;your
+		front row seat to the hottest styles and trends in women&#146;s shoes!</h1>
+</div>
+<div class="fashionshow-intro-mid">
+	<div class="accordianwrap">
+		<ul>
+			<li>
+				<a href="/fashion-show/babyphat" class="accordian-trigger">
+					<img src="<?php echo heels::getCdnImgUrl('fashionshow-accordian-tab-babyphat-3.0.png'); ?>" alt="Baby Phat" width="31" height="418" />
+
+					<p class="babyphat"></p>
+				</a>
+			</li>
+			<li>
+				<a href="/fashion-show/dereon" class="accordian-trigger">
+					<img src="<?php echo heels::getCdnImgUrl('fashionshow-accordian-tab-dereon-3.0.png'); ?>" alt="Dereon" width="31" height="418" />
+
+					<p class="dereon"></p>
+				</a>
+			</li>
+			<li>
+				<a href="/fashion-show/fergie" class="accordian-trigger">
+					<img src="<?php echo heels::getCdnImgUrl('fashionshow-accordian-tab-fergie-3.0.png'); ?>" alt="Fergie" width="31" height="418" />
+
+					<p class="fergie"></p>
+				</a>
+			</li>
+			<li>
+				<a href="/fashion-show/jessica" class="accordian-trigger">
+					<img src="<?php echo heels::getCdnImgUrl('fashionshow-accordian-tab-jessica-3.0.png'); ?>" alt="Jessica Simpson" width="31" height="418" />
+
+					<p class="jessica"></p>
+				</a>
+			</li>
+			<li>
+				<a href="/fashion-show/jlo" class="accordian-trigger">
+					<img src="<?php echo heels::getCdnImgUrl('fashionshow-accordian-tab-jlo-3.0.png'); ?>" alt="J-Lo" width="31" height="418" />
+
+					<p class="jlo"></p>
+				</a>
+			</li>
+			<li>
+				<a id="openfirst" href="/fashion-show/kelsidagger" class="accordian-trigger">
+					<img src="<?php echo heels::getCdnImgUrl('fashionshow-accordian-tab-kelsidagger-3.0.png'); ?>" alt="Kelsi Dagger" width="31" height="418" />
+
+					<p class="kelsidagger"></p>
+				</a>
+			</li>
+			<li>
+				<a href="/fashion-show/lamb" class="accordian-trigger">
+					<img src="<?php echo heels::getCdnImgUrl('fashionshow-accordian-tab-lamb-3.0.png'); ?>" alt="L.A.M.B." width="31" height="418" />
+
+					<p class="lamb"></p>
+				</a>
+			</li>
+			<li>
+				<a href="/fashion-show/reportsignature" class="accordian-trigger">
+					<img src="<?php echo heels::getCdnImgUrl('fashionshow-accordian-tab-reportsignature-3.0.png'); ?>" alt="Report Signature" width="31" height="418" />
+
+					<p class="reportsignature"></p>
+				</a>
+			</li>
+			<li>
+				<a href="/fashion-show/rocawear" class="accordian-trigger">
+					<img src="<?php echo heels::getCdnImgUrl('fashionshow-accordian-tab-rocawear-3.0.png'); ?>" alt="Rocawear" width="31" height="418" />
+
+					<p class="rocawear"></p>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="fashionshow-intro-foot">
+	<ul>
+		<li><a href="/fashion-show/babyphat">Baby Phat</a></li>
+		<li><a href="/fashion-show/dereon">Dereon</a></li>
+		<li><a href="/fashion-show/fergie">Fergie</a></li>
+		<li><a href="/fashion-show/lamb">L.A.M.B.</a></li>
+		<li><a href="/fashion-show/jessica">Jessica Simpson</a></li>
+		<li><a href="/fashion-show/jlo">J-Lo</a></li>
+		<li><a href="/fashion-show/kelsidagger">Kelsi Dagger</a></li>
+		<li><a href="/fashion-show/reportsignature">Report Signature</a></li>
+		<li><a href="/fashion-show/rocawear">Rocawear</a></li>
+	</ul>
+</div>

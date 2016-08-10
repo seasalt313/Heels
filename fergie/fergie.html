@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fergie Test</title>
+
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  	<link rel="stylesheet" type="text/css" href="fergie.css">
+
+</head>
+<body>
+
+<!-- <div class="fashionshow-detail">
+	<div class="clearfix">
+		<div class="fashionshow-left">
+			<img src="https://beta1.heels.com/fashion-show/fergie" />
+		</div>
+		<div class="fashionshow-right" id="video">
+		</div>
+	</div> -->
+	<div class="fashionshow-left-textbox">
+		<h1>Fergie Fashion Show</h1>
+
+		<p>Feel fergalicious in Fergie’s signature style with these Fergie shoes featured in our Fergie video fashion show. This video appetizer is sure to turn you on to Fergie heels!</p>
+	</div>
+</div>
+<div class="shoeheader">
+	<img src="<?php echo heels::getCdnImgUrl('left-red.gif'); ?>" class="vertMiddle floatLeft" /><a href="/fashion-show" class="vertMiddle floatLeft">&#160;Back to Fashion Show</a>
+	<img src="<?php echo heels::getCdnImgUrl('checkout2-red.gif'); ?>" class="vertMiddle floatLeft" /><a href="/shoe-brand/fergie" class="vertMiddle floatLeft">&#160;See More Fergie Shoes</a>
+</div>
+<!-- start shoe assortment -->
+<div class="shoewrap">
+
+	<!-- shoe 1 -->
+	<div class="shoe">
+		<a href="/womens-shoes/jonas-heel-natural.html" title="Fergie Jonas Shoe - Natural">
+			<img src="images/fergie.jpeg" alt="Fergie Jonas Shoe - Natural" />
+		</a>
+		<br />
+		<span class="title">
+			<a href="images/fergie.jpeg" title="Fergie Jonas Shoe - Natural">
+				Fergie
+				<br />
+				Jonas Shoe - Natural
+			</a>
+		</span>
+		<br />
+		<!-- new -->
+		<span class="new">New</span>
+	</div>
+	<!-- shoe 2 -->
+	<div class="shoe">
+		<a href="fergiesnake.jpg" title="Fergie Jonas Shoe - Black">
+			<img src="images/fergie.jpeg" alt="Fergie Jonas Shoe - Black" />
+		</a>
+		<br />
+		<span class="title">
+			<a href="/womens-shoes/jonas-heel-black.html" title="Fergie Jonas Shoe - Black">
+				Fergie
+				<br />
+				Jonas Shoe - Black
+			</a>
+		</span>
+		<br />
+		<!-- new -->
+		<span class="new">New</span>
+	</div>
+	<!-- shoe 3 -->
+	<div class="shoe">
+		<a href="/womens-shoes/molly-heel-dark-brown.html" title="Fergie Molly Shoe - Dark Brown">
+			<img src="images/fergie.jpeg" alt="Fergie Molly Shoe - Dark Brown" />
+		</a>
+		<br />
+		<span class="title">
+			<a href="/womens-shoes/molly-heel-dark-brown.html" title="Fergie Molly Shoe - Dark Brown">
+				Fergie<br />
+				Molly Shoe - Dark Brown
+			</a>
+		</span>
+		<br />
+		<!-- new -->
+		<span class="new">New</span>
+	</div>
+	<!-- shoe 4 -->
+	<div class="shoe">
+		<a href="/womens-shoes/pepper-heel-dark-purple.html" title="Fergie Pepper Shoe - Dark Purple">
+			<img src="images/fergie.jpeg" alt="Fergie Pepper Shoe - Dark Purple" />
+		</a>
+		<br />
+		<span class="title">
+			<a href="/womens-shoes/pepper-heel-dark-purple.html" title="Fergie Pepper Shoe - Dark Purple">
+				Fergie
+				<br />
+				Pepper Shoe - Dark Purple
+			</a>
+		</span>
+		<br />
+		<!-- new -->
+		<span class="new">New</span>
+	</div>
+	<!-- shoe 5 -->
+	<div class="shoe">
+		<a href="/womens-shoes/pepper-heel-brown.html" title="Fergie Pepper Shoe - Brown">
+			<img src="images/fergie.jpeg" alt="Fergie Pepper Shoe - Brown" />
+		</a>
+		<br />
+		<span class="title">
+			<a href="/womens-shoes/pepper-heel-brown.html" title="Fergie Pepper Shoe - Brown">
+				Fergie
+				<br />
+				Pepper Shoe - Brown
+			</a>
+		</span>
+		<br />
+		<!-- new -->
+		<span class="new">New</span>
+	</div>
+	<!-- shoe 6 -->
+	<div class="shoe">
+		<a href="/womens-shoes/pepper-heel-black.html" title="Fergie Pepper Shoe - Black">
+			<img src="images/fergie.jpeg" alt="Fergie Pepper Shoe - Black" />
+		</a>
+		<br />
+		<span class="title">
+			<a href="/womens-shoes/pepper-heel-black.html" title="Fergie Pepper Shoe - Black">
+				Fergie
+				<br />
+				Pepper Shoe - Black
+			</a>
+	   	</span>
+		<br />
+		<!-- new -->
+		<span class="new">New</span>
+	</div>
+	<!-- end shoe assortment -->
+</div>
+
+<script type="text/javascript">
+	//  install Flowplayer inside a#player
+	$f("video", {src: 'http://static.heels.com/swf/flowplayer.commercial-3.2.7.swf', wmode: 'opaque'},
+		{//more tooltips than the defaults
+			plugins: {
+				controls: {
+					//debug: true, //added for firebug testing of controlbar seek issues
+					url: 'http://static.heels.com/swf/flowplayer.controls-3.2.5.swf',
+					zIndex: 1000,
+					display: 'block',
+					all: false,
+					play: true,
+					time: true,
+					scrubber: true,
+					fullscreen: true,
+					buttonColor: '#333333',
+					buttonOverColor: '#000000',
+					backgroundColor: '#999999',
+					backgroundGradient: [0, 0, 0.7],
+					sliderColor: '#cccccc',
+					sliderBorder: '7px solid #cccccc',
+					progressColor: '#FFFFFF',
+					bufferColor: '#474747',
+					timeColor: '#333333',
+					durationColor: '#333333',
+					timeSeparator: ' / ',
+					timeFontSize: '10',
+					width: 540, // custom width for this size player
+					seekableOnBegin: true,
+					tooltipColor: '#FF0099',
+					tooltips: {
+						// customized texts for buttons
+						buttons: true,
+						play: 'Play',
+						pause: 'Pause',
+						fullscreen: 'Full Screen'
+					}
+				}
+			},
+			key: '<?php echo Kohana::config('config.video_player_license'); ?>',
+			//custom play button
+			play: {
+				url: '<?php echo heels::getCdnImgUrl('/clear-spacer.png'); ?>',
+				width: 1,
+				height: 1
+			},
+
+			playlist: [
+				'http://static.heels.com/videos/fashion-show/thumbs/L/fergie-fashion-show_THUMB_L.jpg',
+				{
+					url: 'http://static.heels.com//videos/fashion-show/mp4/fergie-fashion-show.mp4',
+					autoBuffering: true,
+					autoPlay: false
+				},
+				'http://static.heels.com/videos/fashion-show/thumbs/L/fergie-fashion-show_THUMB_L.jpg'
+			]
+		});
+</script>
+
+</body>
+</html>

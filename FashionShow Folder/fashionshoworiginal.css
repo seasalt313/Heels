@@ -1,0 +1,102 @@
+/* fashion show view styles */
+/* current for Heels 3.0    */
+/* by justin holt           */
+/* top styles */
+#small_banner.fashionshow { width: 1054px; height: 65px; background: #333; padding: 0; }
+
+#small_banner.fashionshow h2 { background: url(//static.heels.com/heels3/img/fashion-show-header.jpg) left center no-repeat; height: 65px; width: 481px; float: left; text-indent: -9999em; }
+
+#small_banner.fashionshow h1 { font-size: 1.4em; margin: 5px 0 0 20px; }
+
+.fashionshow-intro-top { position: relative; width: 1050px; height: 137px; }
+
+.fashionshow-intro-top h1 { display: block; color: #666; font-weight: bold; font-size: 2.8em; padding: 10px 0 0 150px; }
+
+.fashionshow-intro-top p { display: block; width: 880px; background: #ccc; color: #666; font-size: 1.4em; padding: 5px 20px 5px 150px; margin-top: 15px; }
+
+.fashionshow-intro-top img { position: absolute; top: 0; left: 20px; }
+/* middle and accordian content styles */
+.fashionshow-intro-mid { width: 1052px; height: 419px; background: url(//static1.heels.com/img/fashionshow-accordian-midbg-2.0.jpg) no-repeat top center; overflow: hidden; margin: 13px auto 0; }
+
+.accordianwrap { position: relative; margin: auto; width: 687px; height: 417px; overflow: hidden; background-color: #464646; }
+
+.fashionshow-intro-mid ul { list-style: none; margin: 0; padding: 0; }
+
+.fashionshow-intro-mid ul li { float: left; padding: 0; display: block; margin-right: 0; }
+
+.fashionshow-intro-mid ul li a { display: block; overflow: hidden; height: 418px; width: 31px; cursor: pointer; }
+
+.fashionshow-intro-mid ul li img { position: absolute; z-index: 100; }
+
+.fashionshow-intro-mid ul li p { margin: 0 0 0 31px; padding: 0; width: 388px; height: 418px; display: block; }
+
+.fashionshow-intro-mid ul .kelsidagger { background: url(//static2.heels.com/img/fashionshow-kelsidagger-ON.jpg) no-repeat bottom center; height: 418px; width: 403px; }
+
+.fashionshow-intro-mid ul .reportsignature { background: url(//static3.heels.com/img/fashionshow-reportsignature-ON.jpg) no-repeat bottom center; height: 418px; width: 403px; }
+
+.fashionshow-intro-mid ul .lamb { background: url(//static.heels.com/img/fashionshow-lamb-ON.jpg) no-repeat bottom center; height: 418px; width: 403px; }
+
+.fashionshow-intro-mid ul .rocawear { background: url(//static1.heels.com/img/fashionshow-rocawear-ON.jpg) no-repeat bottom center; height: 418px; width: 403px; }
+
+.fashionshow-intro-mid ul .fergie { background: url(//static2.heels.com/img/fashionshow-fergie-ON.jpg) no-repeat bottom center; height: 418px; width: 403px; }
+
+.fashionshow-intro-mid ul .jessica { background: url(//static3.heels.com/img/fashionshow-jessica-ON.jpg) no-repeat bottom center; height: 418px; width: 403px; }
+
+.fashionshow-intro-mid ul .dereon { background: url(//static.heels.com/img/fashionshow-dereon-ON.jpg) no-repeat bottom center; height: 418px; width: 403px; }
+
+.fashionshow-intro-mid ul .babyphat { background: url(//static1.heels.com/img/fashionshow-babyphat-ON.jpg) no-repeat bottom center; height: 418px; width: 403px; }
+
+.fashionshow-intro-mid ul .jlo { background: url(//static2.heels.com/img/fashionshow-jlo-ON.jpg) no-repeat bottom center; height: 418px; width: 403px; }
+
+#openfirst { width: 439px; }
+/* footer styles */
+.fashionshow-intro-foot { width: 1050px; height: 40px; background: #ccc; margin: 5px 0 0; line-height: 40px; }
+
+.intro-foot-mainText { width: 800px; margin: 0 auto; padding-top: 10px; color: #666; }
+
+.intro-foot-mainText a:link, .intro-foot-mainText a:visited { color: #666; font-size: 1.4em; text-decoration: none; }
+.intro-foot-mainText a:hover, .intro-foot-mainText a:focus { text-decoration: underline; }
+.intro-foot-mainText a:active { text-decoration: none; }
+/* brand content view styles */
+.fashionshow-detail { width: 1053px; height: 415px; background: #464646; }
+
+.fashionshow-right { position: relative; display: inline; float: left; margin-left: 9px; width: 640px; height: 389px; padding: 14px 0 0 0; }
+
+.fashionshow-left { position: relative; display: inline; float: left; width: 388px; height: 415px; padding: 8px 0 0 2px; }
+
+.fashionshow-left-textbox { position: absolute; top: 300px; left: 57px; z-index: 2; width: 275px; height: 120px; text-align: center; }
+
+.fashionshow-left-textbox h1 { color: #ec008c; font-weight: bold; font-size: 1.8em; margin: 15px 0 0 8px; }
+
+.fashionshow-left-textbox p { position: relative; top: 0; height: 65px; width: 275px; color: #fff; font-size: 1.1em; }
+
+.shoeheader { width: 470px; height: 20px; margin: 10px auto 20px; text-align: center; }
+
+.shoeheader a:link, .shoeheader a:visited { display: block; float: left; padding: 0 25px 0 5px; font-weight: bold; font-size: 12px; color: #666; text-decoration: none; }
+
+.shoeheader a:hover, .shoeheader a:focus { color: #ec008c; text-decoration: underline; }
+
+.shoeheader a:active { text-decoration: underline; outline: none; }
+
+.shoeheader img { float: left; vertical-align: middle; }
+.shoewrap { margin: 0 auto; }
+
+.shoe { display: block; float: left; width: 162px; height: 255px; margin: 0 0 0 11px; font-size: 10px; font-weight: bold; text-align: center; }
+.shoe .title,
+.shoe .title a { color: #000; text-decoration: none; }
+.shoe .title a:hover { color: #ec008c; }
+.shoe .new { color: #f00; }
+.shoe .sale { color: #999; text-decoration: line-through; }
+.shoe .tagline { font-weight: normal; }
+.shoe .soldout { color: #f00; }
+.empty { margin: 0 0 170px 0; font: 18px verdana; }
+
+.fashionshow-intro-foot ul { font-size: 1.8em; width: 785px; margin: 0 auto; padding: 0 0 0 15px; }
+
+.fashionshow-intro-foot ul li { float: left; list-style: disc; width: auto; margin: 0 15px; color: #666; }
+
+.fashionshow-intro-foot ul li:first-child { list-style: none; margin: 0 15px 0 0; }
+
+.fashionshow-intro-foot ul li a { color: #666; }
+
+.fashionshow-intro-foot ul li a:hover { color: #ec008c; }
